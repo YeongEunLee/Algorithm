@@ -2,7 +2,7 @@
 - 이것이 취업을 위한 코딩테스트다 with 파이썬 문제풀이
 - coding test 문제 풀이 
 
-# 목차
+## 목차
 - Chapter3. 그리디
 - Chapter4. 구현
 - Chapter5. DFS/BFS
@@ -12,7 +12,7 @@
 - Chapter9. 최단 경로
 - Chapter10. 그래프 이론
 
-# 알고리즘 유형별 기출 문제
+## 알고리즘 유형별 기출 문제
 #### Chapter3
 - Q01 모험가 길드 p.310
 - Q02 곱하기 혹은 더하기 p.311
