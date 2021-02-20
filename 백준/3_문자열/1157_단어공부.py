@@ -1,6 +1,4 @@
-word = input()
-
-word = word.upper()
+word = input().upper()
 
 dic = dict()
 for i in word:
@@ -8,9 +6,15 @@ for i in word:
 
 m = max(list(dic.values()))
 
-lst = [k for k, v in dic.items() if v == m]
+reverse_dict= dict(map(reversed, dic.items()))
 
+lst = reverse_dict[m]
+
+
+print(lst)
+"""
 if len(lst) >= 2:
   print("?")
 else:
   print(''.join(lst))
+"""
