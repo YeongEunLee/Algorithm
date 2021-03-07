@@ -19,6 +19,7 @@ def bfs(x, y):
       if graph[nx][ny] == 1:
         graph[nx][ny] = graph[x][y] + 1
         queue.append((nx, ny))
+  #가장 오른쪽 아래까지의 최단 거리 반환
   return graph[n-1][m-1]
 
 # N, M을 공백을 기준으로 입력 받음
